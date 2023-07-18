@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="MauiBrokenEditoriOS.Views.EditorWithHeight"
+    Title="EditorWithHeight">
+    <VerticalStackLayout>
+        <Label Text="Editor with HeightRequest of 200 in VerticalStack, can add content till the height is reached then cannot scroll, scrollbar is shown but can't use it"/>
+        <Editor 
+            Text="Welcome to .NET MAUI!"
+            HeightRequest="200"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center"/>
+    </VerticalStackLayout>
+</ContentPage>

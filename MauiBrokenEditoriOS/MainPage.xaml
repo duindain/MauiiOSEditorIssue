@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiBrokenEditoriOS.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Spacing="25"
+            Padding="30,0"
+            VerticalOptions="Center">
+
+            <Button
+                Text="Editor with AutoGrow"
+                FontSize="32"
+                HorizontalOptions="Center"
+                Clicked="Button_Clicked_AutoGrow"/>
+
+            <Button
+                Text="Editor in ScrollView"
+                FontSize="32"
+                HorizontalOptions="Center"
+                Clicked="Button_Clicked_ScrollView"/>
+
+            <Button
+                Text="DefaultEditor"
+                FontSize="32"
+                HorizontalOptions="Center"
+                Clicked="Button_Clicked_Default"/>
+
+            <Button
+                Text="Editor in Grid"
+                FontSize="32"
+                HorizontalOptions="Center"
+                Clicked="Button_Clicked_Grid"/>
+
+            <Button
+                Text="Editor with HeightRequest"
+                FontSize="32"
+                HorizontalOptions="Center"
+                Clicked="Button_Clicked_Height"/>
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
+
