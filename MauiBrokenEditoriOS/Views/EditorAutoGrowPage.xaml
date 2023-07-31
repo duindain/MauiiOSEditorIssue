@@ -10,6 +10,7 @@
             Text="Welcome to .NET MAUI!"
             VerticalOptions="Center" 
             HorizontalOptions="Center"
-            AutoSize="TextChanges"/>
+            AutoSize="TextChanges"
+            Background="WhiteSmoke"/>
     </VerticalStackLayout>
 </ContentPage>
